@@ -1,0 +1,1 @@
+dotnet msbuild LifeStyle/LifeStyle/LifeStyle.csproj -restore /p:DeployOnBuild=True -p:Configuration=Release -p:TargetFrameworks=net6.0  -p:PublishReadyToRun=False -p:PublishTrimmed=False -p:WebPublishMethod=FileSystem -p:publishUrl=../../Publish

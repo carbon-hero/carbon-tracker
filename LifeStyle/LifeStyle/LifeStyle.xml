@@ -1,0 +1,165 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LifeStyle</name>
+    </assembly>
+    <members>
+        <member name="M:LifeStyle.Controllers.AppSettingController.Get(System.Int32)">
+            <summary>
+            Get setting by Id from db
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LifeStyle.Controllers.AppSettingController.GetAll(System.Int32,System.Int32,System.String)">
+            <summary>
+            Get All setting from db
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LifeStyle.Controllers.AppSettingController.Save(Core.RequestModel.AppSettingRequest)">
+            <summary>
+            Save setting on db
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LifeStyle.Controllers.AppSettingController.Delete(System.Int32)">
+            <summary>
+            Delete setting by Id from db
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LifeStyle.Controllers.DataTypesController.SaveDataType(Core.RequestModel.DataTypeRequest)">
+            <summary>
+            Save data type on db
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LifeStyle.Controllers.DataTypesController.SaveDataTypeValue(Core.RequestModel.DataTypeValueRequest)">
+            <summary>
+            Save data type value on db
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LifeStyle.Controllers.DataTypesController.DeleteDataType(System.Int32)">
+            <summary>
+            Delete data type by Id from db
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LifeStyle.Controllers.DataTypesController.DeleteDataTypeValue(System.Int32)">
+            <summary>
+            Delete data type value by Id from db
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LifeStyle.Controllers.FileController.Get(System.Int32)">
+            <summary>
+            Get single by id from db
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LifeStyle.Controllers.FileController.Save(Core.RequestModel.FileRequest)">
+            <summary>
+            Save in db
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LifeStyle.Controllers.FileController.SaveMultiple(Core.RequestModel.MultipleFileRequest)">
+            <summary>
+            Save multiple files in db
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LifeStyle.Controllers.FileController.Delete(System.Int32)">
+            <summary>
+            Delete file by id from db
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LifeStyle.Controllers.TemplateController.Get(System.Int32)">
+            <summary>
+            Get template by Id from db
+            </summary>
+            <returns></returns>
+            
+        </member>
+        <member name="M:LifeStyle.Controllers.TemplateController.GetAll(System.Int32,System.Int32,System.String)">
+            <summary>
+            Get all template from db
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LifeStyle.Controllers.TemplateController.Save(Core.RequestModel.TemplateRequest)">
+            <summary>
+            Save template on db
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LifeStyle.Controllers.TemplateController.Delete(System.Int32)">
+            <summary>
+            Delete template by Id from db
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TattoosAPI.Controllers.UserController.Me">
+            <summary>
+            Get user profile by token (Header) from db
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TattoosAPI.Controllers.UserController.Get(System.Int32)">
+            <summary>
+            Get user details by id from db
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TattoosAPI.Controllers.UserController.GetAll(System.Int32,System.Int32,System.String,System.Int32)">
+            <summary>
+            Get all user details from db
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TattoosAPI.Controllers.UserController.GetAllMyFriends(System.Int32,System.Int32,System.String,System.Int32)">
+            <summary>
+            Get all my friends details from db
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TattoosAPI.Controllers.UserController.SignUp(Core.RequestModel.SignupRequest)">
+            <summary>
+            Sign-Up  
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TattoosAPI.Controllers.UserController.Login(Core.RequestModel.LoginRequest)">
+            <summary>
+            Login by username and password from db
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TattoosAPI.Controllers.UserController.AddFriend(Core.RequestModel.FriendRequest)">
+            <summary>
+            Add to friend list in db
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TattoosAPI.Controllers.UserController.AddTreesPlanted">
+            <summary>
+            Add trees planted by the user in db
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TattoosAPI.Controllers.UserController.Delete(System.Int32)">
+            <summary>
+            Delete user deatils by Id from db
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TattoosAPI.Controllers.UserController.Save(Core.RequestModel.UserRequest)">
+            <summary>
+            Save user deatils from db
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
